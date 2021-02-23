@@ -1,5 +1,4 @@
 #include<iostream>
-#include<string.h>
 using namespace std;
 int main()
 {
@@ -23,5 +22,6 @@ int main()
         	count1 += arr[q];
        		count2 += n-arr[q]+1;             
     	}
+    	
     	cout<<count1<<" "<<count2; 
 }
